@@ -1,7 +1,10 @@
 #this folders will be formed while image creation
-/node_modules
-/dist
+node_modules/
+dist/
 
 #noone will read this file in container
 README.md
 
+#preventing eb scripts from getting into image
+scripts/
+Dockerrun.aws.json
